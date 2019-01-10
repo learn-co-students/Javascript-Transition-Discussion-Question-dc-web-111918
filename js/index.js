@@ -26,4 +26,4 @@ function fixLincoln() {
 
 }
 
-button.addEventListener('click', fixThatBitch)
+button.addEventListener('click', fixLincoln)
