@@ -11,7 +11,7 @@
 
 
 
-let button = document.querySelector('#save_lincoln')
+let button = document.querySelector('#save_lincoln').addEventListener('click', fixLincoln)
 
 function fixLincoln() {
   let intervalInput = document.querySelector('#interval')
@@ -25,5 +25,3 @@ function fixLincoln() {
   }
 
 }
-
-button.addEventListener('click', fixLincoln)
